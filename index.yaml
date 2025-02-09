@@ -1,0 +1,114 @@
+apiVersion: v1
+entries:
+  adguard-home:
+  - apiVersion: v2
+    appVersion: v0.107.56
+    created: "2025-02-09T12:09:24.985784531Z"
+    digest: d2427d27a2bae24c6ffb4c8eb41f9fd0bf71d9e2dcaa2965f519cf071341e701
+    name: adguard-home
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/adguard-home-0.0.1/adguard-home-0.0.1.tgz
+    version: 0.0.1
+  jellyseerr:
+  - apiVersion: v2
+    appVersion: release-2.3.0
+    created: "2025-02-09T12:09:25.091078561Z"
+    dependencies:
+    - name: common
+      repository: https://bubylou.github.io/Arr-Stack
+      version: 0.3.4
+    digest: 8b72ff8a4b2e412382f57ed03d998d420ddc3157be9a8130a1b5833fda208b8a
+    name: jellyseerr
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/jellyseerr-0.0.1/jellyseerr-0.0.1.tgz
+    version: 0.0.1
+  navidrome:
+  - apiVersion: v2
+    appVersion: 0.54.4
+    created: "2025-02-09T12:09:25.205572212Z"
+    dependencies:
+    - name: common
+      repository: http://bjw-s.github.io/helm-charts/
+      version: 0.2.0
+    digest: c2de23468977aa4e1b1bb9f15ae37672e270d089866c988a3f58fc3b224459d7
+    name: navidrome
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/navidrome-0.0.1/navidrome-0.0.1.tgz
+    version: 0.0.1
+  prowlarr:
+  - apiVersion: v2
+    appVersion: 1.30.2
+    created: "2025-02-09T12:09:25.325472913Z"
+    digest: c069b382b10be973cccc94d83e6d1de707a15663116021ed23051aa8185d7cf4
+    name: prowlarr
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/prowlarr-0.0.1/prowlarr-0.0.1.tgz
+    version: 0.0.1
+  qbittorrent:
+  - apiVersion: v2
+    appVersion: 5.0.3
+    created: "2025-02-09T12:09:25.419063331Z"
+    digest: 61ddaeed01c96f392da8c528786bbb17cff5b224ea5484b1d60c303c5485e9c5
+    name: qbittorrent
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/qbittorrent-0.0.1/qbittorrent-0.0.1.tgz
+    version: 0.0.1
+  radarr:
+  - apiVersion: v2
+    appVersion: 5.17.2
+    created: "2025-02-09T12:09:25.487324078Z"
+    digest: 388896d296ff5d85322fa5c01598c74472d18c2cbc0605a322531da24e1023aa
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/radarr-0.0.1/radarr-0.0.1.tgz
+    version: 0.0.1
+  sabnzbd:
+  - apiVersion: v2
+    appVersion: 4.4.1
+    created: "2025-02-09T12:09:25.580948786Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    digest: f99b9b34a1d6b80c94459eb5cc2a42d1578a1fe3d8bc035c62597fe66f1a2dfd
+    name: sabnzbd
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/sabnzbd-0.0.1/sabnzbd-0.0.1.tgz
+    version: 0.0.1
+  sonarr:
+  - apiVersion: v2
+    appVersion: 4.0.12
+    created: "2025-02-09T12:09:25.65482827Z"
+    digest: fe111afa5bed9e9709bfed3ffbba741a691f474614ac1475bb30d18868b3e3e2
+    name: sonarr
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/sonarr-0.0.1/sonarr-0.0.1.tgz
+    version: 0.0.1
+  telegrammy:
+  - apiVersion: v2
+    appVersion: v1.0.2
+    created: "2025-02-09T12:09:25.737065613Z"
+    digest: 720a50b27f2ee39d9e90757bd765ceff4d26c952a7bfeaa2f66634cbecd8285a
+    name: telegrammy
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/telegrammy-0.0.1/telegrammy-0.0.1.tgz
+    version: 0.0.1
+  wg-easy:
+  - apiVersion: v2
+    appVersion: "9"
+    created: "2025-02-09T12:09:25.831049597Z"
+    digest: 732ed3bdf049cc2734730d0e027853ebb1d6c3c1ebbc04849e07aecf9bd2a768
+    name: wg-easy
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/wg-easy-0.0.1/wg-easy-0.0.1.tgz
+    version: 0.0.1
+generated: "2025-02-09T12:09:25.831056641Z"
