@@ -10,6 +10,16 @@ entries:
     urls:
     - https://github.com/dakoel/helm-homelab/releases/download/adguard-home-0.0.1/adguard-home-0.0.1.tgz
     version: 0.0.1
+  ddns-updater:
+  - apiVersion: v2
+    appVersion: v2.9.0
+    created: "2025-02-10T16:46:52.913916489Z"
+    digest: d4e71d24501f16d3f45cd5b05c351e1fd2cbdb3c653104f4f44ed5ed4c89915d
+    name: ddns-updater
+    type: application
+    urls:
+    - https://github.com/dakoel/helm-homelab/releases/download/ddns-updater-0.0.1/ddns-updater-0.0.1.tgz
+    version: 0.0.1
   jellyseerr:
   - apiVersion: v2
     appVersion: release-2.3.0
@@ -111,4 +121,4 @@ entries:
     urls:
     - https://github.com/dakoel/helm-homelab/releases/download/wg-easy-0.0.1/wg-easy-0.0.1.tgz
     version: 0.0.1
-generated: "2025-02-09T12:09:25.831056641Z"
+generated: "2025-02-10T16:46:52.913927781Z"
